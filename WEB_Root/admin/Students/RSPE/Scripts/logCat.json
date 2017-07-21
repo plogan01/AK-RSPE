@@ -1,6 +1,0 @@
-[
-  ~[tlist_sql;SELECT ID FROM GEN WHERE Name = 'RSPE']
-  {"ID" :"~(ID;json)"},
-  [/tlist_sql]
-  {}
-]

@@ -1,5 +1,0 @@
-<script>
-  $j('#std_administration').append(
-      ('<li><a href="/admin/students/rspe/rspe.html?frn=~(studentfrn)">RSPE Log</a></li>')
-  );
-</script>

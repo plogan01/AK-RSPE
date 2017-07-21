@@ -1,0 +1,42 @@
+[
+  ~[tlist_sql;SELECT  (SELECT COUNT(rspe.yearid) FROM U_LOG_RSPE rspe WHERE Yearid = ~(curyearid)) AS Total,
+        (SELECT SUM(CASE WHEN rspe.student_injury IS NOT NULL THEN 1 WHEN rspe.staff_injury IS NOT NULL THEN 1 ELSE 0 END) FROM U_LOG_RSPE rspe WHERE YearID = ~(curyearid))AS injury,
+        (SELECT SUM(CASE WHEN rspe.Personnel1_Trained = 0 THEN 1
+                         WHEN (rspe.personnel2 IS NOT NULL AND rspe.personnel2_Trained = 0) THEN 1
+                         WHEN (rspe.personnel3 IS NOT NULL AND rspe.personnel3_Trained = 0) THEN 1 ELSE 0 END) FROM U_LOG_RSPE rspe WHERE rspe.yearid = ~(curyearid)) AS Untrained,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 02 AND rspe.yearid = ~(curyearid)) AS cognative,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 03 AND rspe.yearid = ~(curyearid)) AS hearing,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 04 AND rspe.yearid = ~(curyearid)) AS speech,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 05 AND rspe.yearid = ~(curyearid)) AS visual,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 06 AND rspe.yearid = ~(curyearid)) AS emotional,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 07 AND rspe.yearid = ~(curyearid)) AS orthopedic,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 08 AND rspe.yearid = ~(curyearid)) AS other,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 09 AND rspe.yearid = ~(curyearid)) AS specific,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 10 AND rspe.yearid = ~(curyearid)) AS blindness,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 11 AND rspe.yearid = ~(curyearid)) AS multiple,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 12 AND rspe.yearid = ~(curyearid)) AS autism,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 13 AND rspe.yearid = ~(curyearid)) AS brain,
+        (SELECT COUNT(rspe.ak_Disability) FROM U_LOG_RSPE rspe WHERE rspe.AK_Disability = 14 AND rspe.yearid = ~(curyearid)) AS delayed
+  FROM U_LOG_RSPE
+    WHERE ROWNUM = 1]
+  {
+    "total": "~(Total;json)",
+    "injury": "~(injury;json)",
+    "untrained": "~(untrained;json)",
+    "cognative": "~(cognative;json)",
+    "hearing": "~(hearing;json)",
+    "speech": "~(speech;json)",
+    "visual": "~(visual;json)",
+    "emotional": "~(emotional;json)",
+    "orthopedic": "~(orthopedic;json)",
+    "other": "~(other;json)",
+    "specific": "~(specific;json)",
+    "blindness": "~(blindness;json)",
+    "multiple": "~(multiple;json)",
+    "autism": "~(autism;json)",
+    "brain": "~(brain;json)",
+    "delayed": "~(delayed;json)"
+  },
+  [/tlist_sql]
+  {}
+]

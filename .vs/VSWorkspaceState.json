@@ -1,7 +1,13 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Plugin",
+    "\\Plugin\\WEB_Root",
+    "\\Plugin\\WEB_Root\\admin",
+    "\\Plugin\\WEB_Root\\admin\\RSPE",
+    "\\Plugin\\WEB_Root\\admin\\Students",
+    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE"
   ],
-  "SelectedNode": "\\README.md",
+  "SelectedNode": "\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\rspe.html",
   "PreviewInSolutionExplorer": false
 }

@@ -20,13 +20,13 @@
 <!-- start of content and bounding box -->
 <div class="box-round">
 <table border="0" cellspacing="0" cellpadding="4">
-<form action="/admin/students/rstp/printlogentries.html" method="POST">
+<form action="/admin/students/rspe/printlogentries.html" method="POST">
 <center><h1>Please wait while the records are searched...</h1></center>
 </table>
 <br>
 
 <div class="button-row"><input type="hidden" name="ac" value="logsearch">
-<input type="hidden" name="logtype" value="12529">
+<input type="hidden" name="logtype" value="~[tlist_sql;SELECT ID FROM GEN WHERE Name = 'RSPE']~(ID)[/tlist_sql]">
 <input type="hidden" name="subtype" value="">
 <input type="hidden" name="begdate" value="~(gpv.date)">
 <input type="hidden" name="enddate" value="~(gpv.date)">

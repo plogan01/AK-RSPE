@@ -6,8 +6,9 @@
     "\\Plugin\\WEB_Root\\admin",
     "\\Plugin\\WEB_Root\\admin\\RSPE",
     "\\Plugin\\WEB_Root\\admin\\Students",
-    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE"
+    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE",
+    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\Scripts"
   ],
-  "SelectedNode": "\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\rspe.html",
+  "SelectedNode": "\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\print.html",
   "PreviewInSolutionExplorer": false
 }

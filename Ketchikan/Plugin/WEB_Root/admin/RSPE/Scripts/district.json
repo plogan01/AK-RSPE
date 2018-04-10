@@ -1,0 +1,12 @@
+[
+	~[tlist_sql;SELECT value FROM PREFS WHERE Name = 'districtname']
+	{
+		"name" : "~(value;json)",
+	[/tlist_sql]
+	~[tlist_sql;SELECT value FROM PREFS WHERE Name = 'DistrictPhone']
+		"phone" : "~(value;json)"
+	},
+  [/tlist_sql]
+  {}
+]
+	

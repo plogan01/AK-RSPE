@@ -10,7 +10,7 @@
         </div>
         <div>
             <label>Duration (Minutes)</label>
-            <input type="text" name="[LOG.U_LOG_RSPE]Duration" value="" size="5" required /> <font color="red">*</font>
+            <input type="text" name="[LOG.U_RSPE]Duration" value="" size="5" required /> <font color="red">*</font>
         </div>
         <div>
             <label>Log Type</label>
@@ -23,16 +23,16 @@
         </div>
         <div>
             <label>Brief Description (Title)</label>
-            <input type="text" name="[LOG.U_LOG_RSPE]Title" value="" size="50" required /> <font color="red">*</font>
+            <input type="text" name="[LOG.U_RSPE]Title" value="" size="50" required /> <font color="red">*</font>
         </div>
         <div>
             <label>Special Education at the time of incident</label>
-            <select id="sped" name="[LOG.U_LOG_RSPE]Sped">
+            <select id="sped" name="[LOG.U_RSPE]Sped">
                 <option value="0">No</option>
                 <option value="1">Yes</option>
             </select> <font color="red">*</font>
             <label class="disability">Disability <font color="red">*</font></label>
-            <select class="disability" id="akDisability" name="[LOG.U_LOG_RSPE]AK_Disability">
+            <select class="disability" id="akDisability" name="[LOG.U_RSPE]AK_Disability">
                 <option value=""></option>
                 <option value="00">00 - Not receiving Special Education Services</option>
                 <option value="02">02 - Cognitive Impairments</option>
@@ -57,9 +57,9 @@
             <table>
                 <tr>
                     <td>
-                        <input type="text" name="[LOG.U_LOG_RSPE]Personnel1" value="" size="75" placeholder="Staff Name" required /> <font color="red">*</font>
+                        <input type="text" name="[LOG.U_RSPE]Personnel1" value="" size="75" placeholder="Staff Name" required /> <font color="red">*</font>
                         Trained in Crisis Intervention:
-                        <select name="[LOG.U_LOG_RSPE]Personnel1_Trained">
+                        <select name="[LOG.U_RSPE]Personnel1_Trained">
                             <option value="0">No</option>
                             <option value="1">Yes</option>
                         </select> <font color="red">*</font>
@@ -67,9 +67,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="[LOG.U_LOG_RSPE]Personnel2" value="" size="75" placeholder="Staff Name" />
+                        <input type="text" name="[LOG.U_RSPE]Personnel2" value="" size="75" placeholder="Staff Name" />
                         Trained in Crisis Intervention:
-                        <select name="[LOG.U_LOG_RSPE]Personnel2_Trained">
+                        <select name="[LOG.U_RSPE]Personnel2_Trained">
                             <option></option>
                             <option value="0">No</option>
                             <option value="1">Yes</option>
@@ -78,9 +78,9 @@
                 </tr>
                 <tr>
                     <td>
-                        <input type="text" name="[LOG.U_LOG_RSPE]Personnel3" value="" size="75" placeholder="Staff Name" />
+                        <input type="text" name="[LOG.U_RSPE]Personnel3" value="" size="75" placeholder="Staff Name" />
                         Trained in Crisis Intervention:
-                        <select name="[LOG.U_LOG_RSPE]Personnel3_Trained">
+                        <select name="[LOG.U_RSPE]Personnel3_Trained">
                             <option></option>
                             <option value="0">No</option>
                             <option value="1">Yes</option>
@@ -91,23 +91,23 @@
         </div>
         <div>
             <label>Pre-Incident Activity Description (*Include adult efforts/strategies to deescalate situation.) <font color="red">*</font></label>
-            <textarea name="[LOG.U_LOG_RSPE]Pre_Incident_Activity" rows="6" cols="120" required></textarea>
+            <textarea name="[LOG.U_RSPE]Pre_Incident_Activity" rows="6" cols="120" required></textarea>
         </div>
         <div>
             <label>Incident Description <font color="red">*</font></label>
-            <textarea name="[LOG.U_LOG_RSPE]Incident_Activity" rows="6" cols="120" required></textarea>
+            <textarea name="[LOG.U_RSPE]Incident_Activity" rows="6" cols="120" required></textarea>
         </div>
         <div>
             <label>Student Injury (Description)</label>
-            <input type="text" name="[LOG.U_LOG_RSPE]Student_Injury" value="" size="50">
+            <input type="text" name="[LOG.U_RSPE]Student_Injury" value="" size="50">
         </div>
         <div>
             <label>Staff Injury (Description)</label>
-            <input type="text" name="[LOG.U_LOG_RSPE]Staff_Injury" value="" size="50">
+            <input type="text" name="[LOG.U_RSPE]Staff_Injury" value="" size="50">
         </div>
         <div>
             <label>Action Taken</label>
-            <select name="[LOG.U_LOG_RSPE]CPI_Action">
+            <select name="[LOG.U_RSPE]CPI_Action">
                 <option></option>
                 <option value="Child Control">Child Control</option>
                 <option value="Team Control">Team Control</option>
@@ -119,40 +119,40 @@
     <fieldset>
         <div>
             <label>Post-Incident Description</label>
-            <textarea name="[LOG.U_LOG_RSPE]Post_Incident_Activity" rows="6" cols="120"></textarea>
+            <textarea name="[LOG.U_RSPE]Post_Incident_Activity" rows="6" cols="120"></textarea>
         </div>
         <div>
             <label>Further Action Taken</label>
-            <textarea name="[LOG.U_LOG_RSPE]Further_Action" rows="6" cols="120"></textarea>
+            <textarea name="[LOG.U_RSPE]Further_Action" rows="6" cols="120"></textarea>
         </div>
         <div>
             <label>Follow-up Communication with Student and Parents</label>
             <table>
                 <tr>
                     <td class="bold">Date</td>
-                    <td><input type="text" name="[LOG.U_LOG_RSPE]Follow_Up_Date" value="" size="10" class="psDateWidget"></td>
+                    <td><input type="text" name="[LOG.U_RSPE]Follow_Up_Date" value="" size="10" class="psDateWidget"></td>
                 </tr>
                 <tr>
                     <td class="bold">Primary Communication</td>
-                    <td><input type="text" name="[LOG.U_LOG_RSPE]Communication_Type1" value="" size="75"></td>
+                    <td><input type="text" name="[LOG.U_RSPE]Communication_Type1" value="" size="75"></td>
                 </tr>
                 <tr>
                     <td class="bold">Additional Communication</td>
-                    <td><input type="text" name="[LOG.U_LOG_RSPE]Communication_Type2" value="" size="75"></td>
+                    <td><input type="text" name="[LOG.U_RSPE]Communication_Type2" value="" size="75"></td>
                 </tr>
             </table>
         </div>
         <div>
             <label>Staff Review of Incident Summary</label>
-            <textarea name="[LOG.U_LOG_RSPE]Staff_Review" rows="6" cols="120"></textarea>
+            <textarea name="[LOG.U_RSPE]Staff_Review" rows="6" cols="120"></textarea>
         </div>
         <div>
             <label>Recommendations</label>
-            <textarea name="[LOG.U_LOG_RSPE]Recommendations" rows="6" cols="120"></textarea>
+            <textarea name="[LOG.U_RSPE]Recommendations" rows="6" cols="120"></textarea>
         </div>
     </fieldset>
-    <input type="hidden" id="Grade_level" name="[LOG.U_LOG_RSPE]Grade_Level" value="~([01]grade_level)">
-    <input type="hidden" id="yearid" name="[LOG.U_LOG_RSPE]YearId" value="~(curyearid)" />
+    <input type="hidden" id="Grade_level" name="[LOG.U_RSPE]Grade_Level" value="~([01]grade_level)">
+    <input type="hidden" id="yearid" name="[LOG.U_RSPE]YearId" value="~(curyearid)" />
     <input type="hidden" name="[LOG]logtypeid" value="{{Log[0].ID}}">
     <input type="hidden" name="[LOG]studentid" value="~(curstudid)">
     <input type="hidden" id="schoolID" name="[LOG]schoolid" value="">

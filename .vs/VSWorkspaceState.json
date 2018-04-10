@@ -1,15 +1,16 @@
 {
   "ExpandedNodes": [
     "",
+    "\\Archive",
+    "\\Ketchikan",
+    "\\Ketchikan\\WEB_Root\\admin",
+    "\\Ketchikan\\WEB_Root\\admin\\reports",
+    "\\Ketchikan\\WEB_Root\\admin\\Students",
+    "\\Ketchikan\\WEB_Root\\admin\\Students\\RSPE",
+    "\\Ketchikan\\WEB_Root\\admin\\Students\\RSPE\\Scripts",
     "\\Plugin",
-    "\\Plugin\\WEB_Root",
-    "\\Plugin\\WEB_Root\\admin",
-    "\\Plugin\\WEB_Root\\admin\\RSPE",
-    "\\Plugin\\WEB_Root\\admin\\RSPE\\Scripts",
-    "\\Plugin\\WEB_Root\\admin\\Students",
-    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE",
-    "\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\Scripts"
+    "\\Plugin\\user_schema_root"
   ],
-  "SelectedNode": "\\Plugin\\WEB_Root\\admin\\RSPE\\Scripts\\form.json",
+  "SelectedNode": "\\Ketchikan\\WEB_Root",
   "PreviewInSolutionExplorer": false
 }

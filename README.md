@@ -13,3 +13,5 @@ S - Seclusion
 R - Restraint
 Once you have created the RSPE log type and subtypes you will need to give group permissions to whomever should have access to the RSPE Logs. To grant permissions, from the Start page at the District Office click on System under Setup. On the System Administrator page click on Groups under Security. Select the group you would like to grant access by clicking on the group name and under Accessible Log Types click on the checkbox for RSPE. Repeat the process for all of the groups you would like to grant access as all groups will be denied initially.
 After the plugin is installed on your system you should set page permissions for the Log Entry Page (RSPE Logs) to prevent unauthorized access.
+
+4/10/2018 This plugin no longer uses object reports to print the individual logs. There is now an HTML report that is included in the plugin zip file.

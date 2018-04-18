@@ -2,15 +2,14 @@
   "ExpandedNodes": [
     "",
     "\\Archive",
-    "\\Ketchikan",
-    "\\Ketchikan\\WEB_Root\\admin",
-    "\\Ketchikan\\WEB_Root\\admin\\reports",
-    "\\Ketchikan\\WEB_Root\\admin\\Students",
-    "\\Ketchikan\\WEB_Root\\admin\\Students\\RSPE",
-    "\\Ketchikan\\WEB_Root\\admin\\Students\\RSPE\\Scripts",
-    "\\Plugin",
-    "\\Plugin\\user_schema_root"
+    "\\Ketchikan\\Plugin",
+    "\\Ketchikan\\Plugin\\WEB_Root",
+    "\\Ketchikan\\Plugin\\WEB_Root\\admin",
+    "\\Ketchikan\\Plugin\\WEB_Root\\admin\\Students",
+    "\\Ketchikan\\Plugin\\WEB_Root\\admin\\Students\\RSPE",
+    "\\Ketchikan\\Plugin\\WEB_Root\\admin\\Students\\RSPE\\Scripts",
+    "\\Plugin"
   ],
-  "SelectedNode": "\\Ketchikan\\WEB_Root",
+  "SelectedNode": "\\AK_RSPE v0.6.1.zip",
   "PreviewInSolutionExplorer": false
 }

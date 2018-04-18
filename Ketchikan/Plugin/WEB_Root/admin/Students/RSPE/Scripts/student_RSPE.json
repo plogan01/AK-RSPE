@@ -11,7 +11,8 @@
 FROM Log l
 JOIN U_RSPE rspe
 ON l.dcid = rspe.LOGDCID
-WHERE l.studentid = ~(gpv.id) AND l.logtypeid = ~(gpv.cat)]
+WHERE l.studentid = ~(gpv.id) AND l.logtypeid = ~(gpv.cat)
+ORDER BY l.entry_date DESC]
   {
     "id": "~(id:json)",
     "dcid": "~(dcid:json)",
